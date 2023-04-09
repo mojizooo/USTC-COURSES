@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun May  1 14:48:19 2022
+# Process ID: 16496
+# Current directory: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9628 C:\Users\lenovo\Desktop\void\cod\lab5\CODexp-master\Lab5\CPU5\CPU5.xpr
+# Log file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.xpr
+INFO: [Project 1-313] Project file moved from 'C:/CODexp/Lab5/CPU5' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.srcs/sim_1/new/sim_realbug.v', nor could it be found using path 'C:/CODexp/Lab5/CPU5/CPU5.srcs/sim_1/new/sim_realbug.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2021.1/data/ip'.
+INFO: [Project 1-230] Project 'CPU5.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 1222.551 ; gain = 0.000
+upgrade_project -migrate_output_products
+INFO: [Coretcl 2-1819] Migrated 'instruction_mem.xci'
+  Source files are located in 'c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.srcs/sources_1/ip/instruction_mem'
+  Output files are located in 'c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.gen/sources_1/ip/instruction_mem'.
+INFO: [Coretcl 2-1819] Migrated 'data_mem.xci'
+  Source files are located in 'c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.srcs/sources_1/ip/data_mem'
+  Output files are located in 'c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.gen/sources_1/ip/data_mem'.
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  1 15:37:59 2022...

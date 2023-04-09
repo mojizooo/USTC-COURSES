@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../CPU5.gen/sources_1/ip/instruction_mem/sim/instruction_mem.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

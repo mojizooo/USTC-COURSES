@@ -1,0 +1,15 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon May 23 23:23:12 2022
+| Host         : LAPTOP-OKB0SK0I running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file CPU5_one_cycle_bus_skew_routed.rpt -pb CPU5_one_cycle_bus_skew_routed.pb -rpx CPU5_one_cycle_bus_skew_routed.rpx
+| Design       : CPU5_one_cycle
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

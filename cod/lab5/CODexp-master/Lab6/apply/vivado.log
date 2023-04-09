@@ -1,0 +1,1565 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun May 22 11:45:47 2022
+# Process ID: 14912
+# Current directory: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30796 C:\Users\lenovo\Desktop\void\cod\lab5\CODexp-master\Lab6\apply\apply.xpr
+# Log file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.xpr
+INFO: [Project 1-313] Project file moved from 'C:/CODexp/Lab6/apply' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/new/sort.v', nor could it be found using path 'C:/CODexp/Lab6/apply/apply.srcs/sources_1/new/sort.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2021.1/data/ip'.
+INFO: [Project 1-230] Project 'apply.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:13 . Memory (MB): peak = 1226.121 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/instruction_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_tx_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <dist_mem_gen_v8_0_13> not found while processing module instance <inst> [C:/CODexp/Lab6/apply/apply.srcs/sources_1/ip/instruction_mem/sim/instruction_mem.v:64]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1226.121 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/instruction_mem/instruction_mem.xci] -no_script -reset -force -quiet
+remove_files  -fileset instruction_mem C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/instruction_mem/instruction_mem.xci
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/instruction_mem_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/instruction_mem/instruction_mem.xci' from fileset 'instruction_mem' to fileset 'sources_1'.
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name dist_mem_gen_0
+set_property -dict [list CONFIG.depth {256} CONFIG.data_width {32} CONFIG.memory_type {rom} CONFIG.coefficient_file {C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/instruction_mem/btb.coe}] [get_ips dist_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/instruction_mem/btb.coe' provided. It will be converted relative to IP Instance files '../instruction_mem/btb.coe'
+generate_target {instantiation_template} [get_files c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'dist_mem_gen_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'dist_mem_gen_0'...
+catch { config_ip_cache -export [get_ips -all dist_mem_gen_0] }
+export_ip_user_files -of_objects [get_files c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+launch_runs dist_mem_gen_0_synth_1 -jobs 8
+[Sun May 22 12:14:21 2022] Launched dist_mem_gen_0_synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'dist_mem_gen_0'... please wait for 'dist_mem_gen_0_synth_1' run to finish...
+wait_on_run dist_mem_gen_0_synth_1
+[Sun May 22 12:14:21 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:14:26 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:14:31 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:14:37 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:14:47 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:14:57 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log dist_mem_gen_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_0.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source dist_mem_gen_0.tcl -notrace
+Command: synth_design -top dist_mem_gen_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 30192
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_0' [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/synth/dist_mem_gen_0.vhd:66]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 256 - type: integer 
+	Parameter C_HAS_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_D bound to: 0 - type: integer 
+	Parameter C_HAS_DPO bound to: 0 - type: integer 
+	Parameter C_HAS_DPRA bound to: 0 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 1 - type: integer 
+	Parameter C_HAS_WE bound to: 0 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: dist_mem_gen_0.mif - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 1 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 32 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_13' declared at 'c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3237' bound to instance 'U0' of component 'dist_mem_gen_v8_0_13' [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/synth/dist_mem_gen_0.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_0' (4#1) [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/synth/dist_mem_gen_0.vhd:66]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1224.875 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1224.875 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++---------------------+-------------------------------------------------------+---------------+----------------+
+|Module Name          | RTL Object                                            | Depth x Width | Implemented As | 
++---------------------+-------------------------------------------------------+---------------+----------------+
+|rom                  | rom[255]                                              | 256x13        | LUT            | 
+|dist_mem_gen_v8_0_13 | synth_options.dist_mem_inst/gen_rom.rom_inst/rom[255] | 256x13        | LUT            | 
++---------------------+-------------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     2|
+|2     |LUT4 |    10|
+|3     |LUT5 |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1224.875 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1224.875 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1224.875 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1228.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 861e75ad
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1228.949 ; gain = 4.074
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP dist_mem_gen_0, cache-ID = 8950f61f6e9e67bb
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dist_mem_gen_0_utilization_synth.rpt -pb dist_mem_gen_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 22 12:15:01 2022...
+[Sun May 22 12:15:02 2022] dist_mem_gen_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:41 . Memory (MB): peak = 1226.121 ; gain = 0.000
+export_simulation -of_objects [get_files c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files -ipstatic_source_dir C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/modelsim} {questa=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-12490] The selected simulation model for 'dist_mem_gen_0' IP changed to 'rtl' from '', the simulation run directory will be deleted.
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_tx_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <sort> not found while processing module instance <s> [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:28]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/data_mem/data_mem.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_mem'...
+export_ip_user_files -of_objects [get_files C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/data_mem/data_mem.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/data_mem/data_mem.xci] -directory C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files -ipstatic_source_dir C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/modelsim} {questa=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/data_mem/sim/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/WBIF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WBIF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/new/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.cache
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.Registers
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXMEM
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Forwarding
+Compiling module xil_defaultlib.WBIF
+Compiling module xil_defaultlib.Hazard
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/xsim.dir/CPU_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun May 22 12:16:44 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1226.121 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -view {C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/test_tx_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/test_tx_behav.wcfg
+WARNING: Simulation object /test_tx/clk was not found in the design.
+WARNING: Simulation object /test_tx/rst was not found in the design.
+WARNING: Simulation object /test_tx/tx was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/RF/regfile was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_addr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_dout was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_we was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_din was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pc was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pce was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ir was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/imm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/mdr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/a was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/b was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/y was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/bm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/yw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrl was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrlm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrlw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PC was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCN was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PC_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/instruction was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCadd4 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ins14 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/isPCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/zero was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/cf was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs1_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs1_clr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rs1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rs2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/WriteData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Imm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/control was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ra1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ra2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs2_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs2_clr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin3 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/a_fwd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/b_fwd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ALUresult was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op2_temp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ReadData_temp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/DM_we was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ReadData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin4 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/LastWriteData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdf was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rf_wr_f was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_ready was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_rd was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_data was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/curr_state was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/next_state was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/div_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_reg was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/DIV_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/HDIV_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/TX_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/C_IDLE was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/C_TX was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx_vld was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx_data was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/curr_state was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/div_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/br was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/isPCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/pce was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/PCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/PCN was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/pc was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/fail was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/valid was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/value was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/tag was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/index was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/hit was not found in the design.
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1226.121 ; gain = 0.000
+set_property top test_tx [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1226.121 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_tx_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/data_mem/sim/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/WBIF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WBIF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/new/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tx
+INFO: [VRFC 10-2458] undeclared symbol io_dout, assumed default net type wire [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:32]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'io_dout' [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.cache
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.Registers
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXMEM
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Forwarding
+Compiling module xil_defaultlib.WBIF
+Compiling module xil_defaultlib.Hazard
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.test_tx
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_tx_behav
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/xsim.dir/test_tx_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun May 22 12:21:11 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1226.121 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_tx_behav -key {Behavioral:sim_1:Functional:test_tx} -tclbatch {test_tx.tcl} -view {C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/test_tx_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/test_tx_behav.wcfg
+WARNING: Simulation object /test_tx/s/cpu/RF/regfile was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_addr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_dout was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_we was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_din was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pc was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pce was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ir was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/imm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/mdr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/a was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/b was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/y was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/bm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/yw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrl was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrlm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrlw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PC was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCN was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PC_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/instruction was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCadd4 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ins14 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/isPCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/zero was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/cf was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs1_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs1_clr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rs1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rs2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/WriteData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Imm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/control was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ra1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ra2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs2_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs2_clr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin3 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/a_fwd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/b_fwd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ALUresult was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op2_temp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ReadData_temp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/DM_we was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ReadData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin4 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/LastWriteData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdf was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rf_wr_f was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_ready was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_rd was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_data was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/curr_state was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/next_state was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/div_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_reg was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/DIV_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/HDIV_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/TX_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/C_IDLE was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/C_TX was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx_vld was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx_data was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/curr_state was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/div_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/br was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/isPCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/pce was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/PCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/PCN was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/pc was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/fail was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/valid was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/value was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/tag was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/index was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/hit was not found in the design.
+source test_tx.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_tx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1226.121 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'io_dout' [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:32]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1226.121 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'io_dout' [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:32]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1226.121 ; gain = 0.000
+set_property -dict [list CONFIG.coefficient_file {C:/Users/lenovo/Desktop/void/cod/lab5/data_hazard.coe}] [get_ips dist_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/lenovo/Desktop/void/cod/lab5/data_hazard.coe' provided. It will be converted relative to IP Instance files '../../../../../../../data_hazard.coe'
+generate_target all [get_files  c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dist_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'dist_mem_gen_0'...
+catch { config_ip_cache -export [get_ips -all dist_mem_gen_0] }
+export_ip_user_files -of_objects [get_files c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -sync -force -quiet
+reset_run dist_mem_gen_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1
+
+launch_runs dist_mem_gen_0_synth_1 -jobs 8
+[Sun May 22 12:26:10 2022] Launched dist_mem_gen_0_synth_1...
+Run output will be captured here: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'dist_mem_gen_0'... please wait for 'dist_mem_gen_0_synth_1' run to finish...
+wait_on_run dist_mem_gen_0_synth_1
+[Sun May 22 12:26:10 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:26:15 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:26:20 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:26:26 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:26:36 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:26:46 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+[Sun May 22 12:26:56 2022] Waiting for dist_mem_gen_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log dist_mem_gen_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_0.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source dist_mem_gen_0.tcl -notrace
+Command: synth_design -top dist_mem_gen_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22180
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_0' [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/synth/dist_mem_gen_0.vhd:66]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 256 - type: integer 
+	Parameter C_HAS_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_D bound to: 0 - type: integer 
+	Parameter C_HAS_DPO bound to: 0 - type: integer 
+	Parameter C_HAS_DPRA bound to: 0 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 1 - type: integer 
+	Parameter C_HAS_WE bound to: 0 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: dist_mem_gen_0.mif - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 1 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 32 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_13' declared at 'c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3237' bound to instance 'U0' of component 'dist_mem_gen_v8_0_13' [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/synth/dist_mem_gen_0.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_0' (4#1) [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/synth/dist_mem_gen_0.vhd:66]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1225.480 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1225.480 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++---------------------+-------------------------------------------------------+---------------+----------------+
+|Module Name          | RTL Object                                            | Depth x Width | Implemented As | 
++---------------------+-------------------------------------------------------+---------------+----------------+
+|rom                  | rom[255]                                              | 256x17        | LUT            | 
+|dist_mem_gen_v8_0_13 | synth_options.dist_mem_inst/gen_rom.rom_inst/rom[255] | 256x17        | LUT            | 
++---------------------+-------------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     1|
+|2     |LUT5 |    15|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1225.480 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1225.480 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1225.480 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1230.625 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: e0001890
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1230.625 ; gain = 5.145
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP dist_mem_gen_0, cache-ID = 955fc3bc36d702c2
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dist_mem_gen_0_utilization_synth.rpt -pb dist_mem_gen_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 22 12:26:57 2022...
+[Sun May 22 12:27:01 2022] dist_mem_gen_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:51 . Memory (MB): peak = 1226.121 ; gain = 0.000
+export_simulation -of_objects [get_files c:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files -ipstatic_source_dir C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/modelsim} {questa=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_hazard.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_tx_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/data_mem/sim/data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/Registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/imports/new/WBIF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WBIF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sources_1/new/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_tx
+INFO: [VRFC 10-2458] undeclared symbol io_dout, assumed default net type wire [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:32]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'io_dout' [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.cache
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.Registers
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXMEM
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Forwarding
+Compiling module xil_defaultlib.WBIF
+Compiling module xil_defaultlib.Hazard
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.test_tx
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_tx_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_tx_behav -key {Behavioral:sim_1:Functional:test_tx} -tclbatch {test_tx.tcl} -view {C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/test_tx_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/test_tx_behav.wcfg
+WARNING: Simulation object /test_tx/s/cpu/RF/regfile was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_addr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_dout was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_we was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/io_din was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pc was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pce was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ir was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/imm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/mdr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/a was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/b was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/y was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/bm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/yw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrl was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrlm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ctrlw was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PC was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCN was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PC_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/instruction was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCadd4 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/PCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ins14 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/isPCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/zero was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/cf was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs1_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs1_clr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rs1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rs2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/WriteData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Imm was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/control was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ra1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ra2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs2_en was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/Regs2_clr was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin3 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/a_fwd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/b_fwd was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op1 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op2 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ALUresult was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/op2_temp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ReadData_temp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/DM_we was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/ReadData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/pcin4 was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/LastWriteData was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rdf was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/rf_wr_f was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_ready was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_rd was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_data was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/curr_state was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/next_state was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/div_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/tx_reg was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/DIV_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/HDIV_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/TX_CNT was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/C_IDLE was not found in the design.
+WARNING: Simulation object /test_tx/s/TX/C_TX was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx_vld was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/rx_data was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/curr_state was not found in the design.
+WARNING: Simulation object /test_tx/s/RX/div_cnt was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/clk was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/rst was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/br was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/isPCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/pce was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/PCjmp was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/PCN was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/pc was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/fail was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/valid was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/value was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/tag was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/index was not found in the design.
+WARNING: Simulation object /test_tx/s/cpu/predirctBR/hit was not found in the design.
+source test_tx.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_tx.CPU.DM.inst at time               165000 ns: 
+Reading from out-of-range address. Max address in test_tx.CPU.DM.inst is         255
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_tx_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1226.121 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2021.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_mem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/data_hazard.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/sort1.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_tx.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_5.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/tx_6.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_3.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/rx_4.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_final.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/test_f_2.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim/btb.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_tx_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_tx'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.sim/sim_1/behav/xsim'
+"xelab -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'io_dout' [C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.srcs/sim_1/new/test_tx.v:32]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in test_tx.CPU.DM.inst at time               165000 ns: 
+Reading from out-of-range address. Max address in test_tx.CPU.DM.inst is         255
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1226.121 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1226.121 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 22 14:46:12 2022...

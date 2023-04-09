@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu May  5 08:47:31 2022
+# Process ID: 12524
+# Current directory: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.runs/instruction_mem_synth_1
+# Command line: vivado.exe -log instruction_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source instruction_mem.tcl
+# Log file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.runs/instruction_mem_synth_1/instruction_mem.vds
+# Journal file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.runs/instruction_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source instruction_mem.tcl -notrace

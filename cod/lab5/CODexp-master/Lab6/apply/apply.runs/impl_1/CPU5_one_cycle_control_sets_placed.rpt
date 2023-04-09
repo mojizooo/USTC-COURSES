@@ -1,0 +1,132 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon May 23 23:22:30 2022
+| Host         : LAPTOP-OKB0SK0I running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CPU5_one_cycle_control_sets_placed.rpt
+| Design       : CPU5_one_cycle
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    54 |
+|    Minimum number of control sets                        |    54 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   217 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    54 |
+| >= 0 to < 4        |    11 |
+| >= 4 to < 6        |    10 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     7 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    20 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1229 |          453 |
+| No           | No                    | Yes                    |             103 |           39 |
+| No           | Yes                   | No                     |             236 |          143 |
+| Yes          | No                    | No                     |             486 |          210 |
+| Yes          | No                    | Yes                    |             205 |           77 |
+| Yes          | Yes                   | No                     |             156 |           54 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                                         Enable Signal                                         |                          Set/Reset Signal                          | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | CPU5/top/tx_inst/tx_i_1_n_0                                                                   | rst_IBUF                                                           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_015_out                                                               |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_71_out                                                                |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_55_out                                                                |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_113_out                                                               |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_63_out                                                                |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_211_out                                                               |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_39_out                                                                |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_reg_47_out                                                                |                                                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG |                                                                                               | CPU5/top/tx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0] |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                                                                                               | CPU5/top/rx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0] |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_buff_6[3]_i_1_n_0                                                            | rst_IBUF                                                           |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_buff_4[3]_i_1_n_0                                                            | rst_IBUF                                                           |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_cnt[3]_i_1_n_0                                                            | rst_IBUF                                                           |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/tx_byte_cnt[3]_i_1_n_0                                                               | rst_IBUF                                                           |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_buff_3[3]_i_1_n_0                                                            | rst_IBUF                                                           |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_buff_7[3]_i_1_n_0                                                            | rst_IBUF                                                           |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_cnt[3]_i_1_n_0                                                               | rst_IBUF                                                           |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | debug/cnt_m_rf[4]_i_1_n_0                                                                     | rst_IBUF                                                           |                3 |              5 |         1.67 |
+|  clk_IBUF_BUFG | CPU5/top/tx_inst/tx_cnt0                                                                      | rst_IBUF                                                           |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | CPU5/Regs3/E[0]                                                                               | rst_IBUF                                                           |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | CPU5/top/wr_addr_reg[0]_14                                                                    |                                                                    |                6 |              6 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_buff_1[7]_i_1_n_0                                                            | rst_IBUF                                                           |                2 |              8 |         4.00 |
+|  clk_cpu_BUFG  |                                                                                               | rst_IBUF                                                           |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | CPU5/top/tx_inst/tx_reg[7]_i_1_n_0                                                            | rst_IBUF                                                           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_buff_2[7]_i_1_n_0                                                            | rst_IBUF                                                           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_byte_buff_5[7]_i_1_n_0                                                            | rst_IBUF                                                           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_inst/rx_vld0                                                                      | rst_IBUF                                                           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG |                                                                                               | CPU5/top/wr_addr_reg[3]_0                                          |                7 |              9 |         1.29 |
+|  clk_IBUF_BUFG | CPU5/top/rx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0] | CPU5/top/rx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0] |                2 |             10 |         5.00 |
+|  clk_IBUF_BUFG | CPU5/top/rx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/E[0] | CPU5/top/rx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0] |                2 |             10 |         5.00 |
+|  clk_IBUF_BUFG | CPU5/top/tx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/E[0] | CPU5/top/tx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0] |                2 |             10 |         5.00 |
+|  clk_IBUF_BUFG | CPU5/top/tx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0] | CPU5/top/tx_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0] |                2 |             10 |         5.00 |
+|  clk_IBUF_BUFG | CPU5/top/tx_byte_buff_7                                                                       | rst_IBUF                                                           |                3 |             14 |         4.67 |
+|  clk_IBUF_BUFG |                                                                                               | CPU5/top/wr_addr_reg[3]_1                                          |                7 |             23 |         3.29 |
+|  clk_IBUF_BUFG | CPU5/Regs4/rdw_reg[1]_rep_10                                                                  | CPU5/top/wr_addr_reg[3]_2                                          |               24 |             24 |         1.00 |
+|  clk_cpu_BUFG  |                                                                                               | CPU5/Regs3/y_reg[31]_0[10]                                         |               27 |             27 |         1.00 |
+|  clk_IBUF_BUFG | CPU5/Regs3/ctrlm_reg[12]_0[0]                                                                 | rst_IBUF                                                           |               20 |             32 |         1.60 |
+|  clk_cpu_BUFG  | CPU5/Regs2/ctrl_reg[13]_0[0]                                                                  | rst_IBUF                                                           |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG | CPU5/top/tx_byte_buff_6[6]_i_1_n_0                                                            | rst_IBUF                                                           |               15 |             43 |         2.87 |
+|  clk_cpu_BUFG  | CPU5/Regs2/pce_reg[4]_1[0]                                                                    |                                                                    |               24 |             59 |         2.46 |
+|  clk_cpu_BUFG  | CPU5/Regs2/pce_reg[4]_2[0]                                                                    |                                                                    |               19 |             59 |         3.11 |
+|  clk_cpu_BUFG  | CPU5/Regs2/pce_reg[4]_0[0]                                                                    |                                                                    |               25 |             59 |         2.36 |
+|  clk_cpu_BUFG  | CPU5/Regs2/pce_reg[3]_1[0]                                                                    |                                                                    |               22 |             59 |         2.68 |
+|  clk_cpu_BUFG  | CPU5/Regs2/pce_reg[3]_0[0]                                                                    |                                                                    |               24 |             59 |         2.46 |
+|  clk_cpu_BUFG  | CPU5/Regs2/pce_reg[2]_1[0]                                                                    |                                                                    |               34 |             59 |         1.74 |
+|  clk_cpu_BUFG  | CPU5/Regs2/pce_reg[2]_0[0]                                                                    |                                                                    |               19 |             59 |         3.11 |
+|  clk_cpu_BUFG  | CPU5/Regs2/E[0]                                                                               |                                                                    |               29 |             59 |         2.03 |
+|  clk_cpu_BUFG  | CPU5/Regs2/ctrl_reg[13]_0[0]                                                                  | CPU5/Regs2/fail                                                    |               22 |             92 |         4.18 |
+|  clk_IBUF_BUFG |                                                                                               | rst_IBUF                                                           |               36 |             95 |         2.64 |
+|  clk_cpu_BUFG  | CPU5/Regs3/we                                                                                 |                                                                    |               32 |            128 |         4.00 |
+|  clk_cpu_BUFG  |                                                                                               | CPU5/Regs2/this_clr                                                |              100 |            173 |         1.73 |
+|  clk_cpu_BUFG  |                                                                                               |                                                                    |              112 |            243 |         2.17 |
+|  clk_IBUF_BUFG |                                                                                               |                                                                    |              341 |            988 |         2.90 |
++----------------+-----------------------------------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+--------------+
+
+

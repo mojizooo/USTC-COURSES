@@ -1,0 +1,17 @@
+@startuml
+start
+:传入头结点与目标元素;
+if (链表是否为空？) then (yes)
+    :退出程序;
+    stop
+else (no)
+    :从头结点开始逐级遍历;
+endif
+if (是否找到目标元素) then(yes)
+    :返回当前结点;
+    stop
+else (no)
+    :退出程序;
+    stop
+endif
+@enduml

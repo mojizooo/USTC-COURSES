@@ -1,0 +1,20 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/XIlinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto b8e98701d72c4a338adec33fa3a8b85f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab1_sort_tb_behav xil_defaultlib.lab1_sort_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 32 for port 'y' [C:/Users/Asus/Documents/GitHub/COD_labs/_lab1/src/project_1/project_1.srcs/sources_1/new/mux.v:37]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 32 for port 'y' [C:/Users/Asus/Documents/GitHub/COD_labs/_lab1/src/project_1/project_1.srcs/sources_1/new/mux.v:38]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 32 for port 'y' [C:/Users/Asus/Documents/GitHub/COD_labs/_lab1/src/project_1/project_1.srcs/sources_1/new/mux.v:39]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register(WIDTH=4)
+Compiling module xil_defaultlib.alu(WIDTH=4)
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.mux4(WIDTH=4)
+Compiling module xil_defaultlib.xsort
+Compiling module xil_defaultlib.lab1_sort_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab1_sort_tb_behav

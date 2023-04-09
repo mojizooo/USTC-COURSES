@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun May  1 14:48:19 2022
+# Process ID: 16496
+# Current directory: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9628 C:\Users\lenovo\Desktop\void\cod\lab5\CODexp-master\Lab5\CPU5\CPU5.xpr
+# Log file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab5/CPU5/CPU5.xpr
+upgrade_project -migrate_output_products
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1

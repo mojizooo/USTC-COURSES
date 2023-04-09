@@ -1,0 +1,139 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in sim_debug.cpu.DM.inst at time               445000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time               615000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time               785000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time               955000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              1125000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              1295000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              1465000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              1635000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              1805000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              1975000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              2145000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              2315000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              2485000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              2655000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              2825000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              2995000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              3165000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              3335000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              3505000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              3675000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              3845000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              4015000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              4185000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              4355000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              4525000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              4695000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              4865000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              5035000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              5205000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              5375000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              5545000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              5715000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              5885000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              6055000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              6225000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              6395000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              6565000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              6735000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              6905000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              7075000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              7245000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              7415000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              7585000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              7755000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              7925000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              8095000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              8265000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              8435000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              8605000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              8775000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              8945000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              9115000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              9285000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              9455000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              9625000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              9795000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time              9965000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             10135000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             10305000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             10475000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             10645000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             10815000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             10985000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             11155000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             11325000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             11495000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             11665000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255
+WARNING in sim_debug.cpu.DM.inst at time             11835000 ns: 
+Reading from out-of-range address. Max address in sim_debug.cpu.DM.inst is         255

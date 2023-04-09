@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon May 23 23:21:49 2022
+# Process ID: 18088
+# Current directory: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/impl_1
+# Command line: vivado.exe -log CPU5_one_cycle.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CPU5_one_cycle.tcl -notrace
+# Log file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/impl_1/CPU5_one_cycle.vdi
+# Journal file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source CPU5_one_cycle.tcl -notrace

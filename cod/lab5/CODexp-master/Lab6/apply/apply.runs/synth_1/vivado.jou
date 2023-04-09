@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon May 23 23:20:37 2022
+# Process ID: 24096
+# Current directory: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/synth_1
+# Command line: vivado.exe -log CPU5_one_cycle.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU5_one_cycle.tcl
+# Log file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/synth_1/CPU5_one_cycle.vds
+# Journal file: C:/Users/lenovo/Desktop/void/cod/lab5/CODexp-master/Lab6/apply/apply.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU5_one_cycle.tcl -notrace
